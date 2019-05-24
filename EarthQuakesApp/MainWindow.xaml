@@ -1,0 +1,15 @@
+﻿<Window x:Class="EarthQuakesApp.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:EarthQuakesApp"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800">
+    <Grid>
+        <DataGrid IsReadOnly="True" Name="dataGrid" Margin="0,0,0,143"/>
+        <Button Content="Показать" Margin="334,311,335,59" Click="ShowButtonClick"/>
+        <TextBox Name="amountTextBox" Text="1" FontSize="17" HorizontalAlignment="Left" Height="27" Margin="10,311,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="48"/>
+
+    </Grid>
+</Window>
